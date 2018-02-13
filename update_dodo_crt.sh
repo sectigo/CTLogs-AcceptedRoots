@@ -15,4 +15,4 @@ sed -i "s/^/wget --content-disposition \"https:\/\/crt.sh\/?d=/g" __roots_sha256
 sed -i "s/$/\"/g" __roots_sha256_not_serverauth__.sh
 chmod 755 __roots_sha256_not_serverauth__.sh
 ./__roots_sha256_not_serverauth__.sh
-rm __roots_sha256_not_serverauth__.sh
+rm __roots_sha256_not_serverauth_*
