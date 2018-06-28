@@ -346,6 +346,7 @@ CA2D82A08677072F8AB6764FF035676CFE3E5E325E012172DF3F92096DB79B85	C=US, O=GeoTrus
 CA42DD41745FD0B81EB902362CF9D8BF719DA1BD1B1EFC946F5B4C99F42C1B9E	OU=GlobalSign Root CA - R2, O=GlobalSign, CN=GlobalSign
 CA7791D5C9A1580DCDCAD31D0549FEA2043E229AA4F4932CFA056CA23EB8A950	C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft Code Verification Root
 CA7A5E68C53D2C51F72F6B465D3ED753F5903EC7901C8D0F55D868337C81975A	CN=Autoridad de Certificacion Raiz del Estado Venezolano, C=VE, L=Caracas, ST=Distrito Capital, O=Sistema Nacional de Certificacion Electronica, OU=Superintendencia de Servicios de Certificacion Electronica, emailAddress=acraiz@suscerte.gob.ve
+CACA93B9D23D2B6FA76E8B8471931E0DF3EC6F63AF3CDBB936C41954A1872326	C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=Microsoft ECC Product Root Certificate Authority 2018
 CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F	C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2
 CB627D18B58AD56DDE331A30456BC65C601A4E9B18DEDCEA08E7DAAA07815FF0	C=US, O=Symantec Corporation, OU=Symantec Trust Network, CN=Symantec Class 2 Public Primary Certification Authority - G6
 CB6B05D9E8E57CD882B10B4DB70DE4BB1DE42BA48A7BD0318B635BF6E7781A9D	C=ZA, ST=Western Cape, L=Durbanville, O=Thawte, OU=Thawte Certification, CN=Thawte Timestamping CA
