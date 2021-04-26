@@ -16,11 +16,11 @@ chmod 755 __roots_sha256_not_serverauth__.sh
 rm __roots_sha256_not_serverauth_*
 
 # Get a list (from the crt.sh DB) of the SHA-256 hashes of:
-#   - All of the roots that are in the CCADB but are not trusted by any root programs.
+#   - All of the roots that are in the CCADB but are not trusted by any of the root programs mentioned previously.
 # These roots will be accepted by Dodo but not by Mammoth or Sabre.
 cd ../in_ccadb_but_not_trusted
 rm *.crt
-psql -h crt.sh -p 5432 -U guest certwatch -c "\COPY (SELECT upper(encode(digest(c.CERTIFICATE, 'sha256'), 'hex')) FROM ccadb_certificate cc, certificate c WHERE cc.CERT_RECORD_TYPE = 'Root Certificate' AND cc.CERTIFICATE_ID = c.ID AND NOT EXISTS (SELECT 1 FROM root_trust_purpose rtp WHERE rtp.CERTIFICATE_ID = c.ID)) TO '__roots_sha256_in_ccadb_but_not_trusted__.sh'"
+psql -h crt.sh -p 5432 -U guest certwatch -c "\COPY (SELECT upper(encode(digest(c.CERTIFICATE, 'sha256'), 'hex')) FROM ccadb_certificate cc, certificate c WHERE cc.CERT_RECORD_TYPE = 'Root Certificate' AND cc.CERTIFICATE_ID = c.ID AND NOT EXISTS (SELECT 1 FROM root_trust_purpose rtp WHERE rtp.CERTIFICATE_ID = c.ID AND rtp.TRUST_CONTEXT_ID IN (25, 12, 1, 5, 17, 23))) TO '__roots_sha256_in_ccadb_but_not_trusted__.sh'"
 sed -i "s/^/wget --content-disposition \"https:\/\/crt.sh\/?d=/g" __roots_sha256_in_ccadb_but_not_trusted__.sh
 sed -i "s/$/\"/g" __roots_sha256_in_ccadb_but_not_trusted__.sh
 chmod 755 __roots_sha256_in_ccadb_but_not_trusted__.sh
