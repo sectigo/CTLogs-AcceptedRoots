@@ -1,5 +1,5 @@
 # Sectigo [Certificate Transparency](http://www.certificate-transparency.org/) Logs: Accepted Roots
-Sectigo's CT logs are powered by [ct-server](https://github.com/google/certificate-transparency).
+Sectigo's CT logs are powered by [Trillian](https://github.com/google/trillian) with the [Trillian CT personality](https://github.com/google/certificate-transparency-go#trillian-ct-personality).
 
 [Sectigo Mammoth](crt/mammoth) and [Sectigo Sabre](crt/sabre) are our production logs, which accept all root certificates that are trusted for the server authentication trust purpose in one or more of the Microsoft, Mozilla and Apple root programs.
 
