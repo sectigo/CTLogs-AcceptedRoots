@@ -31,7 +31,6 @@ jobs:
           tags: |
             type=ref,event=branch
             type=ref,event=tag
-            type=raw,value=v1.26
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
