@@ -1,5 +1,5 @@
 ---
-name: Release
+name: Build container image
 
 on:
   workflow_dispatch:
@@ -45,7 +45,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and Push ctfe
+      - name: Build and Push image
         uses: docker/build-push-action@v5
         with:
           context: .
