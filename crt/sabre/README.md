@@ -4,4 +4,4 @@ We will update the list of accepted roots from time to time in accordance with t
 
 The original Sabre log is [included in Google Chrome since M60](https://bugs.chromium.org/p/chromium/issues/detail?id=703700).
 
-New [temporally-sharded Sabre logs](https://bugs.chromium.org/p/chromium/issues/detail?id=703700#c56) became Qualified in the Chrome and Apple CT log lists in September 2023, and are expected to be considered Usable from 1st December 2023.
+New [temporally-sharded Sabre logs](https://bugs.chromium.org/p/chromium/issues/detail?id=703700#c56) became Qualified in the Chrome and Apple CT log lists in September 2023, and progressed to Usable in November/December 2023.
