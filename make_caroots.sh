@@ -5,7 +5,7 @@ function make_caroots_prod_pem {
 }
 
 function make_caroots_nonprod_pem {
-	find crt/common/non_production crt/$1 -iname *.crt 2>/dev/null | sort | xargs cat > pem/$1-ca-roots.pem
+	find crt/common/trusted crt/common/non_production crt/$1 -iname *.crt 2>/dev/null | sort | xargs cat > pem/$1-ca-roots.pem
 }
 
 function make_caroots_test_pem {
@@ -19,7 +19,7 @@ function make_caroots_prod_tsv {
 
 function make_caroots_nonprod_tsv {
 	echo "SHA-256(Certificate)	CA Name" > tsv/$1-ca-roots.tsv
-	find crt/common/non_production crt/$1 -iname *.crt -printf %f -exec openssl x509 -nameopt utf8 -subject -noout -in '{}' ';' 2>/dev/null | sed "s/\.crtsubject=/\t/g" | sort >> tsv/$1-ca-roots.tsv
+	find crt/common/trusted crt/common/non_production crt/$1 -iname *.crt -printf %f -exec openssl x509 -nameopt utf8 -subject -noout -in '{}' ';' 2>/dev/null | sed "s/\.crtsubject=/\t/g" | sort >> tsv/$1-ca-roots.tsv
 }
 
 function make_caroots_test_tsv {
