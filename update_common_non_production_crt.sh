@@ -4,8 +4,7 @@
 #   - All of the roots that are currently "trusted" for server authentication, but with a "disabled from" date in the past or a "not before until" date more than 398 days ago, by one of the Microsoft, Mozilla, Chrome, Apple, or 360 Browser root programs.
 #   - All of the roots that are currently trusted (but not for the server authentication trust purpose) by one or more of the Microsoft, Mozilla, Chrome, Apple, and 360 Browser root programs.
 #   - All of the roots that are currently trusted (for any purpose) by the Java or Android root programs, but not trusted by Microsoft, Mozilla, Chrome, Apple, or 360 Browser.
-# These roots will be accepted by Dodo but not by Mammoth or Sabre.
-cd crt/dodo/trusted_but_not_for_serverauth
+cd crt/common/non_production/trusted_but_not_for_serverauth
 rm *.crt
 TMPFILE=`mktemp`
 ERRORFILE=`mktemp`
@@ -81,7 +80,6 @@ fi
 
 # Get a list (from the crt.sh DB) of the SHA-256 hashes of:
 #   - All of the roots that are in the CCADB but are not trusted by any of the root programs mentioned previously.
-# These roots will be accepted by Dodo but not by Mammoth or Sabre.
 cd ../in_ccadb_but_not_trusted
 rm *.crt
 
