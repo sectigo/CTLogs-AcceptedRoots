@@ -12,8 +12,8 @@ The first [temporally-sharded Elephant logs](https://issues.chromium.org/issues/
 
 ## Active log shards
 
-| URL | Expiry Start | Expiry End | Public Key (base64) |
-|-----|--------------|------------|---------------------|
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
 | https://elephant2025h2.ct.sectigo.com | 2025-07-01T00:00:00Z | 2025-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0OlLeGW2qUZGUoQERydw3GlayE`<br>`O3ZK3418zThY1tDYr85ASme6ZOL/2DXyOXw8RCwVsKhRbOqMEOxW4Q2p4KQg==` |
 | https://elephant2026h1.ct.sectigo.com | 2026-01-01T00:00:00Z | 2026-06-30T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU0lqnPHoXuU9Fc9dJv1HQZCvss`<br>`JfvxLsirwVQ/fkFyUqeu4inwPKikeT4DGyyWWH4NR/DCJa2bAumHrXJdAcaQ==` |
 | https://elephant2026h2.ct.sectigo.com | 2026-07-01T00:00:00Z | 2026-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO/t4Uwkoou78zkCchh9tfAKbIU`<br>`JmbOoUAb8szD8StnnHFKAVY5kq1Ljs8YD7CfzdD7xcVjmQYpbtNUhxRMRtmA==` |
@@ -22,5 +22,5 @@ The first [temporally-sharded Elephant logs](https://issues.chromium.org/issues/
 
 ## Inactive log shards
 
-| URL | Expiry Start | Expiry End | Public Key (base64) |
-|-----|--------------|------------|---------------------|
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|

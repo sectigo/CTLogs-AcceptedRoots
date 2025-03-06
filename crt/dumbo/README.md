@@ -12,6 +12,6 @@ This is a non-production log.
 
 ## Active
 
-| URL | Expiry Start | Expiry End | Public Key (base64) |
-|-----|--------------|------------|---------------------|
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
 | https://dumbo.ctlabs.sectigo.com | Not applicable | Not applicable | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpb+NLT3zUoc4PAWOpxkkvEH24R`<br>`Kv0dn5QanhKK8Ap7ORfcMxhdWX6h21ZppbyVQ+6hA/pkXNBBGyEpi16VyAQA==` |
