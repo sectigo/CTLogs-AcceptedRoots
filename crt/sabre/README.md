@@ -16,17 +16,17 @@ Since [Tiger](crt/tiger) is intended to replace Sabre, no further Sabre log shar
 
 ## Active log shards
 
-| URL | Expiry Range | Public Key (base64) |
-|-----|--------------|---------------------|
-| https://sabre2025h1.ct.sectigo.com | Jan 01 2025 00:00:00Z inclusive to Jul 01 2025 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfi858egjjrMyBK9NV/bbxXSkem07B1EMWvuAMAXGWgzEdtYGqFdN+9/kgpDCQa5wszGi4/o9XyxdBM20nVWrQQ==` |
-| https://sabre2025h2.ct.sectigo.com | Jul 01 2025 00:00:00Z inclusive to Jan 01 2026 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhRMRLXvzk4HkuXzZZDvntYOZZnlZR2pCXta9Yy63kUuuvFbExW4JoNdkGsjBr4mL9VjYuut7g1Lp9OClzc2SzA==` |
-| https://sabre2026h1.ct.sectigo.com | Jan 01 2026 00:00:00Z inclusive to Jul 01 2026 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhCa8Nr3YjTyHnuAQr82U2de5UYA0fvdYXHPq6wmTuBB7kJx9x82WQ+1TbpUhRmdR8N62yZ6q4oBtziWBNNdqYA==` |
-| https://sabre2026h2.ct.sectigo.com | Jul 01 2026 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzjXK7DkHgtp3J4bk8n7F3Djym6mrjKfA7YMePmobwPCVVroyM0x1fAkH6eE+ZTVj8Em+ctGqna99CMS0jVk9cw==` |
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
+| https://sabre2025h1.ct.sectigo.com | 2025-01-01T00:00:00Z | 2025-06-30T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEfi858egjjrMyBK9NV/bbxXSkem`<br>`07B1EMWvuAMAXGWgzEdtYGqFdN+9/kg`<br>`pDCQa5wszGi4/o9XyxdBM20nVWrQQ==` |
+| https://sabre2025h2.ct.sectigo.com | 2025-07-01T00:00:00Z | 2025-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEhRMRLXvzk4HkuXzZZDvntYOZZn`<br>`lZR2pCXta9Yy63kUuuvFbExW4JoNdkG`<br>`sjBr4mL9VjYuut7g1Lp9OClzc2SzA==` |
+| https://sabre2026h1.ct.sectigo.com | 2026-01-01T00:00:00Z | 2026-06-30T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEhCa8Nr3YjTyHnuAQr82U2de5UY`<br>`A0fvdYXHPq6wmTuBB7kJx9x82WQ+1Tb`<br>`pUhRmdR8N62yZ6q4oBtziWBNNdqYA==` |
+| https://sabre2026h2.ct.sectigo.com | 2026-07-01T00:00:00Z | 2026-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEzjXK7DkHgtp3J4bk8n7F3Djym6`<br>`mrjKfA7YMePmobwPCVVroyM0x1fAkH6`<br>`eE+ZTVj8Em+ctGqna99CMS0jVk9cw==` |
 
 ## Inactive log shards
 
-| URL | Expiry Range | Public Key (base64) |
-|-----|--------------|---------------------|
-| https://sabre.ct.comodo.com | Not applicable | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8m/SiQ8/xfiHHqtls9m7FyOMBg4JVZY9CgiixXGz0akvKD6DEL8S0ERmFe9U4ZiA0M4kbT5nmuk3I85Sk4bagA==` |
-| https://sabre2024h1.ct.sectigo.com | Jan 01 2024 00:00:00Z inclusive to Jul 01 2024 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELAH2zjG8qhRhUf5reoeuptObx4ctClrIT7VU3MmToADuyhy5p7Z7RzvlT6psFhxwLsjsU1pMIUx+JwsTFF78hQ==` |
-| https://sabre2024h2.ct.sectigo.com | Jul 01 2024 00:00:00Z inclusive to Jan 01 2025 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEehBMiucie20quo76a0qB1YWuA+//S/xNUz23jLt1CcnqFn7BdxbSwkV0bY3E4Yg339TzYGX8oHXwIGaOSswZ2g==` |
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
+| https://sabre.ct.comodo.com | Not applicable | Not applicable | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAE8m/SiQ8/xfiHHqtls9m7FyOMBg`<br>`4JVZY9CgiixXGz0akvKD6DEL8S0ERmF`<br>`e9U4ZiA0M4kbT5nmuk3I85Sk4bagA==` |
+| https://sabre2024h1.ct.sectigo.com | 2024-01-01T00:00:00Z | 2024-06-30T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAELAH2zjG8qhRhUf5reoeuptObx4`<br>`ctClrIT7VU3MmToADuyhy5p7Z7RzvlT`<br>`6psFhxwLsjsU1pMIUx+JwsTFF78hQ==` |
+| https://sabre2024h2.ct.sectigo.com | 2024-07-01T00:00:00Z | 2024-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEehBMiucie20quo76a0qB1YWuA+`<br>`//S/xNUz23jLt1CcnqFn7BdxbSwkV0b`<br>`Y3E4Yg339TzYGX8oHXwIGaOSswZ2g==` |
