@@ -12,7 +12,7 @@ The original Mammoth log was [included in Google Chrome since M60](https://issue
 
 The first [temporally-sharded Mammoth logs](https://issues.chromium.org/issues/41308603#comment60) became Qualified in the Chrome and Apple CT log lists in September 2023, and progressed to Usable in November/December 2023.
 
-Since [Elephant](crt/elephant) is intended to replace Mammoth, no further Mammoth log shards are planned after 2026h2.
+[Elephant](crt/elephant) is intended to replace Mammoth, so no further Mammoth log shards are planned after 2026h2.
 
 ## Active log shards
 
