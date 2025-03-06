@@ -16,5 +16,4 @@ The [Dumbo](crt/dumbo) and [Tigger](crt/tigger) logs are intended to replace Dod
 
 | URL | Expiry Range | Public Key (base64) |
 |-----|--------------|---------------------|
-| https://dodo.ct.comodo.com | Not applicable | `
-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELPXCMfVjQ2oWSgrewu4fIW4Sfh<br>3lco90CwKZ061pvAI1eflh6c8ACE90pKM0muBDHCN+j0HV7scco4KKQPqq4A==` |
+| https://dodo.ct.comodo.com | Not applicable | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELPXCMfVjQ2oWSgrewu4fIW4Sfh<br>3lco90CwKZ061pvAI1eflh6c8ACE90pKM0muBDHCN+j0HV7scco4KKQPqq4A==` |
