@@ -12,7 +12,7 @@ The original Sabre log is [included in Google Chrome since M60](https://issues.c
 
 The first [temporally-sharded Sabre logs](https://issues.chromium.org/issues/41308606#comment57) became Qualified in the Chrome and Apple CT log lists in September 2023, and progressed to Usable in November/December 2023.
 
-[Tiger](../crt/tiger) is intended to replace Sabre, so no further Sabre log shards are planned after 2026h2.
+[Tiger](../tiger) is intended to replace Sabre, so no further Sabre log shards are planned after 2026h2.
 
 ## Active log shards
 
