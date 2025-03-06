@@ -10,13 +10,13 @@ These are test logs.
 
 ## Active log shards
 
-| URL | Expiry Range | Public Key (base64) |
-|-----|--------------|---------------------|
-| https://tigger2025.ctlabs.sectigo.com | Jan 01 2025 00:00:00Z inclusive to Jan 01 2026 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyc0ly2S89/mbHngFzMOdgQDUEWWtb7BWTu8foA6qwh0yXR1jhTt2WkPQhK+j0omdiKEizysoElQGCAMiYe5LPg==` |
-| https://tigger2026.ctlabs.sectigo.com | Jan 01 2026 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdh/cBL5t5uz1BRtpazOxuJfUTAQEwo/MtjyzdJqeFETFdjBKJxbOcQcQAhFrp7Ef1Zv998p0V2Rj9lloFDt9YA==` |
-| https://tigger2027.ctlabs.sectigo.com | Jan 01 2027 00:00:00Z inclusive to Jan 01 2028 00:00:00Z exclusive | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtgd6K1O2eC+m8NHQwud/88kVUvRlY6R74OadAamS8203Y/EhLtX7clvh/VLbDD7Je+lbNe29R8WgTlT2E4Q0Ow==` |
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
+| https://tigger2025.ctlabs.sectigo.com | 2025-01-01T00:00:00Z | 2025-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEyc0ly2S89/mbHngFzMOdgQDUEW`<br>`Wtb7BWTu8foA6qwh0yXR1jhTt2WkPQh`<br>`K+j0omdiKEizysoElQGCAMiYe5LPg==` |
+| https://tigger2026.ctlabs.sectigo.com | 2026-01-01T00:00:00Z | 2026-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEdh/cBL5t5uz1BRtpazOxuJfUTA`<br>`QEwo/MtjyzdJqeFETFdjBKJxbOcQcQA`<br>`hFrp7Ef1Zv998p0V2Rj9lloFDt9YA==` |
+| https://tigger2027.ctlabs.sectigo.com | 2027-01-01T00:00:00Z | 2027-12-31T23:59:59Z | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAEtgd6K1O2eC+m8NHQwud/88kVUv`<br>`RlY6R74OadAamS8203Y/EhLtX7clvh/`<br>`VLbDD7Je+lbNe29R8WgTlT2E4Q0Ow==` |
 
 ## Inactive log shards
 
-| URL | Expiry Range | Public Key (base64) |
-|-----|--------------|---------------------|
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
