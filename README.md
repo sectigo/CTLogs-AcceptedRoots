@@ -4,6 +4,8 @@ Sectigo's CT logs are powered by [Trillian](https://github.com/google/trillian) 
 
 Our first generation logs use Trillian's MySQL backend with a MariaDB database, whereas our second generation logs use Trillian's PostgreSQL backend with a PostgreSQL database.
 
+All of the logs (except Dodo) are behind Cloudflare and use the [CF_CTile](https://github.com/sectigo/CF_CTile) caching proxy.
+
 ## Production logs
 
 Our production logs accept all root certificates that are trusted for the server authentication trust purpose in one or more of the Microsoft, Mozilla, Chrome, Apple, and 360 Browser root programs.
