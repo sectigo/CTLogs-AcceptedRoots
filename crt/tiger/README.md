@@ -8,7 +8,7 @@ We will update the list of accepted roots from time to time in accordance with t
 
 ## Status
 
-The first [temporally-sharded Tiger logs](https://issues.chromium.org/issues/399124609) are currently Pending inclusion in the Chrome and Apple CT log lists.
+The first [temporally-sharded Tiger logs](https://issues.chromium.org/issues/399124609) are currently Usable in the Chrome and Apple CT log lists.
 
 ## Active log shards
 
