@@ -2,17 +2,15 @@
 
 ## Policy
 
-This log, which is intended for facilitating PKI archaelogy, accepts all roots that are trusted for any purpose(s) in one or more of the Microsoft, Mozilla, Chrome, Apple, 360 Browser, Java and Android root programs. It also accepts some roots that are no longer trusted or are not (yet) trusted.
-
-We will update this log's list of accepted roots from time to time in accordance with this policy.
+This log, which was intended for facilitating PKI archaelogy, accepted all roots trusted for any purpose(s) in one or more of the Microsoft, Mozilla, Chrome, Apple, 360 Browser, Java and Android root programs. It also accepted some roots that were no longer trusted or were not (yet) trusted.
 
 ## Status
 
-This is a non-production log, which is due to be retired in June 2025.
+This was a non-production log, which became extinct in September 2025.
 
-The [Dumbo](../dumbo) and [Tigger](../tigger) logs are intended to replace Dodo.
+The [Dumbo](../dumbo) and [Tigger](../tigger) logs replaced Dodo.
 
-## Active
+## Inactive
 
 | URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
 |------------|-----------------------|---------------------|---------------------|

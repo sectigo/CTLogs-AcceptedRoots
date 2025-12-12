@@ -2,9 +2,7 @@
 
 ## Policy
 
-These logs accept all roots that are enabled for the Server Authentication trust purpose in one or more of the Microsoft, Mozilla, Chrome, Apple, and 360 Browser root programs.
-
-We will update the list of accepted roots from time to time in accordance with this policy.
+These logs are no longer accepting entries. Previously, they accepted all roots enabled for the Server Authentication trust purpose in one or more of the Microsoft, Mozilla, Chrome, Apple, and 360 Browser root programs.
 
 ## Status
 
@@ -14,7 +12,7 @@ The first [temporally-sharded Sabre logs](https://issues.chromium.org/issues/413
 
 [Tiger](../tiger) is intended to replace Sabre, so no further Sabre log shards are planned after 2026h2.
 
-## Active log shards
+## Active log shards (ReadOnly)
 
 | URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
 |------------|-----------------------|---------------------|---------------------|
