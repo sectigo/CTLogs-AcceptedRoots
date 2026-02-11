@@ -1,7 +1,17 @@
-# Sectigo Dodo log
-This log is intended for testing and for facilitating PKI archaelogy.
-It accepts all roots that are trusted in one or more of the Microsoft, Mozilla, Apple, 360 Browser, Java and Android root programs.
-It also accepts some roots that are no longer trusted or are not yet trusted.
-We will update this log's list of accepted roots from time to time in accordance with this policy.
+# Sectigo Dodo (Non-Production log)
 
-We welcome and will consider [Pull Requests to add other roots](/CONTRIBUTING.md) to this log.
+## Policy
+
+This log, which was intended for facilitating PKI archaelogy, accepted all roots trusted for any purpose(s) in one or more of the Microsoft, Mozilla, Chrome, Apple, 360 Browser, Java and Android root programs. It also accepted some roots that were no longer trusted or were not (yet) trusted.
+
+## Status
+
+This was a non-production log, which became extinct in September 2025.
+
+The [Dumbo](../dumbo) and [Tigger](../tigger) logs replaced Dodo.
+
+## Inactive
+
+| URL Prefix | Expiry Range<br>Start | Expiry Range<br>End | Public Key (base64) |
+|------------|-----------------------|---------------------|---------------------|
+| https://dodo.ct.comodo.com | Not applicable | Not applicable | `MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQc`<br>`DQgAELPXCMfVjQ2oWSgrewu4fIW4Sfh`<br>`3lco90CwKZ061pvAI1eflh6c8ACE90p`<br>`KM0muBDHCN+j0HV7scco4KKQPqq4A==` |
