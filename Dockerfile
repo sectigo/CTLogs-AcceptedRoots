@@ -1,4 +1,4 @@
-FROM busybox:1.37
+FROM busybox:1.38
 USER nobody
 
 COPY crt/* /ctlog-roots/crt/
