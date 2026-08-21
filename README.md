@@ -3,7 +3,7 @@
 Sectigo's CT logs are powered by the following software:
 
 - RFC6962 logs: [Trillian](https://github.com/google/trillian) with the [Trillian CT personality](https://github.com/google/certificate-transparency-go#trillian-ct-personality).
-- Static CT logs: [TesseraCT](https://github.com/transparency-dev/tesseract), which uses the [Tessera](https://github.com/transparency-dev/tessera)library.
+- Static CT logs: [TesseraCT](https://github.com/transparency-dev/tesseract), which uses the [Tessera](https://github.com/transparency-dev/tessera) library.
 
 Our first generation RFC6962 logs use Trillian's MySQL backend with a MariaDB database, whereas our second generation RFC6962 logs use Trillian's PostgreSQL backend with a PostgreSQL database. Our Static CT logs use the POSIX storage backend.
 

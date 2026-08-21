@@ -2,7 +2,7 @@
 
 ## Policy
 
-This log will accepts some roots that are no longer trusted or are not (yet) trusted.
+This log accepts some roots that are no longer trusted or are not (yet) trusted.
 
 We will update this log's list of accepted roots from time to time in accordance with this policy.
 
