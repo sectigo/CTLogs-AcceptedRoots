@@ -1,0 +1,11 @@
+SHA-256(Certificate)	CA Name
+86D8219C7E2B6009E37EB14356268489B81379E076E8F372E3DDE8C162A34134	C=GB, ST=London, O=Google UK Ltd., OU=Certificate Transparency, CN=Merge Delay Monitor Root
+CybertrustiTrustVMCRSA4096RootCA2025	C=JP, O=Cybertrust Japan Co., Ltd., CN=Cybertrust iTrust VMC RSA4096 Root CA 2025
+DigiCertVerifiedMarkRootCA	C=US, ST=Utah, L=Lehi, O=DigiCert, Inc., OU=www.digicert.com, CN=DigiCert Verified Mark Root CA
+EntrustCertificateAuthority-VMC1	C=US, O=Entrust, Inc., OU=See www.entrust.net/legal-terms, OU=(c) 2018 Entrust, Inc. - for authorized use only, CN=Entrust Certificate Authority - VMC1
+EntrustVerifiedMarkRootCertificationAuthority-VMCR1	C=US, O=Entrust, Inc., CN=Entrust Verified Mark Root Certification Authority - VMCR1
+GlobalSignVerifiedMarkRootR42	C=BE, O=GlobalSign nv-sa, CN=GlobalSign Verified Mark Root R42
+GoDaddyVerifiedMarkRootCA-VMCR1	C=US, O=GoDaddy.com, CN=GoDaddy Verified Mark Root CA - VMCR1
+SectigoPublicBIMIRootR49	C=GB, O=Sectigo Limited, CN=Sectigo Public BIMI Root R49
+SSL.comVMCECCRootCA2024	C=US, O=SSL Corporation, CN=SSL.com VMC ECC Root CA 2024
+SSL.comVMCRSARootCA2024	C=US, O=SSL Corporation, CN=SSL.com VMC RSA Root CA 2024
