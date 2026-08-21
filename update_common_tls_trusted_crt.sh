@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd crt/common/trusted
+cd crt/common/trusted/tls
 rm *.crt
 TMPFILE=`mktemp`
 ERRORFILE=`mktemp`
